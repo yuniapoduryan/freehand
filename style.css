@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Quicksand:wght@500&family=Roboto:wght@400;700&display=swap');
+body {
+    margin: auto;
+}
+
+.logo {
+    padding-top: 23px;
+    display: flex;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    max-width: 1170px;
+    margin: auto;
+    gap: 13px;
+}
+
+h2 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    font-family: 'Roboto';
+    gap: 30px;
+}
+
+.card {
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    /* or 89% */
+    letter-spacing: 0.2px;
+    /* 6 */
+    color: #16133D;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    /* text */
+    color: #16133D;
+}
+
+.card a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+    text-decoration: none;
+}
+
+#megaphone:hover .light {
+    fill: #E1F4F5;
+    ;
+}
+
+#megaphone:hover .lighten {
+    fill: #F4FEFF;
+    ;
+}
+
+#megaphone:hover .dark {
+    fill: #52C29D;
+    ;
+}
+
+#megaphone:hover .middle {
+    fill: #CAEFF2;
+}
+
+#building:hover .light {
+    fill: #E1F4F5;
+    ;
+}
+
+#building:hover .lighten {
+    fill: #F4FEFF;
+    ;
+}
+
+#building:hover .dark {
+    fill: #52C29D;
+    ;
+}
+
+#building:hover .middle {
+    fill: #CAEFF2;
+}
+
+#phone:hover .light {
+    fill: #E1F4F5;
+    ;
+}
+
+#phone:hover .lighten {
+    fill: #F4FEFF;
+    ;
+}
+
+#phone:hover .dark {
+    fill: #52C29D;
+    ;
+}
+
+#phone:hover .middle {
+    fill: #CAEFF2;
+}
+
+footer {
+    background: #16133D;
+    background-size: 100vw;
+}
+
+footer .logo {
+    color: white;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+
+li {
+    background: #EFEEF3;
+    border-radius: 5px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover .social {
+    fill: #3DB370;
+}
+
+.socials {
+    max-width: 1170px;
+    margin: auto;
+}
